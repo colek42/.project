@@ -1,0 +1,73 @@
+# .project metadata for in-toto
+# Documentation: https://github.com/cncf/automation/tree/main/utilities/dot-project
+
+# TODO: Set identity_type under legal (has_dco, has_cla)
+# TODO: Add adopters list (ADOPTERS.md)
+# TODO: Add package_managers if distributed via registries
+
+schema_version: "1.0.0"
+slug: "in-toto"
+name: "in-toto"
+description: "in-toto is a framework to protect supply chain integrity."
+type: "project"
+project_lead: "SantiagoTorres" # TODO: AUTO-DETECTED — please verify
+slack_channels: # TODO: AUTO-DETECTED — please verify the channel(s) below
+  - name: "#in-toto"
+    link: "https://cloud-native.slack.com/messages/in-toto"
+    primary: true
+  - name: "#in-toto-witness"
+  - name: "#in-toto-attestations"
+
+maturity_log:
+  - phase: "graduated"
+    date: "2019-08-14T00:00:00Z"
+    issue: "https://github.com/cncf/toc/issues/1549" # TODO: AUTO-DETECTED — please verify
+
+repositories: # TODO: AUTO-DETECTED primary — please verify
+  - url: "https://github.com/in-toto/in-toto"
+    primary: true
+    # tags: [core, sig-apps] # Optional
+
+website: "https://in-toto.io"
+
+artwork: "https://landscape.cncf.io/logos/in-toto.svg"
+
+# TODO: Add ADOPTERS.md if your project tracks adopters
+# adopters:
+#   path: "https://github.com/in-toto/in-toto/blob/develop/ADOPTERS.md"
+
+
+# TODO: Add package manager identifiers if your project is distributed via registries
+# package_managers:
+#   docker: "in-toto/in-toto"
+
+
+security:
+  policy:
+    path: "https://github.com/in-toto/in-toto/blob/develop/SECURITY.md"
+  contact:
+    advisory_url: "https://github.com/in-toto/in-toto/security/advisories/new"
+
+governance:
+  contributing:
+    path: "https://github.com/in-toto/in-toto/blob/develop/CONTRIBUTING.md"
+  code_of_conduct:
+    path: "https://github.com/cncf/foundation/blob/main/code-of-conduct.md"
+
+legal:
+  license:
+    path: "https://github.com/in-toto/in-toto/blob/develop/LICENSE"
+  identity_type:
+    has_dco: true
+    has_cla: false
+    dco_url:
+      path: "https://developercertificate.org/"
+
+documentation:
+  readme:
+    path: "https://github.com/in-toto/in-toto/blob/develop/README.md"
+
+landscape:
+  category: "Provisioning"
+  subcategory: "Security & Compliance"
+
